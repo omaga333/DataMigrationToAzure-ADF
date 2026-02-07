@@ -1,0 +1,21 @@
+{
+	"name": "ds_empyjson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "firstDatalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "empty.json",
+				"folderPath": "Monitor/emptyJson",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

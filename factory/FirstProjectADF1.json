@@ -1,0 +1,9 @@
+{
+	"name": "FirstProjectADF1",
+	"location": "uaenorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a33e32c4-4164-4e23-bbde-f6f87bb478aa",
+		"tenantId": "b88b7e2d-301b-4731-9055-d9befbf3edf9"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"name": "haitham-selfHosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

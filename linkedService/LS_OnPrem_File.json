@@ -1,0 +1,17 @@
+{
+	"name": "LS_OnPrem_File",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\AdfProject",
+			"userId": "hp-\\hp",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4OGZmOGFlMS03YTljLTRjMjQtOWFkZS1lOWRhNjhkYjc0YzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "haitham-selfHosted",
+			"type": "IntegrationRuntimeReference"
+		},
+		"annotations": []
+	}
+}
