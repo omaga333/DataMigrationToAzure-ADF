@@ -21,8 +21,7 @@ The project simulates real-world enterprise data ingestion workflows.
 ---
 
 ##  Architecture
-https://github.com/omaga333/DataMigrationToAzure-ADF/blob/f3217dfe4cb836847e62a51627da3002359a2b03/Diagram.jpg
-
+![image_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/05282771eb68e148ae0197abbb019ef63be286e5/Diagram.jpg)
 ---
 
 
