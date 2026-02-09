@@ -1,8 +1,4 @@
-# DataMigrationToAzure-ADF
-My First Project
-# End-to-End Data Migration Pipeline to Azure using Azure Data Factory (ADF)
-
----
+# DataMigrationToAzure-ADF -- My First Project
 
 ## 📌 Project Overview
 
@@ -210,6 +206,15 @@ This project demonstrates:
 - Debugging Spark jobs
 - Azure service integration
 - Git-based version control
+
+
+## In the Gold Layer, we created business-ready views to provide curated data for reporting and analytics. Below is an example of one such business view.
+
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/62af4ba567d608ff009b0d6703df116aab268389/pipeline/gold.png)
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/62af4ba567d608ff009b0d6703df116aab268389/pipeline/GoldView.png)
+
+
+
 
 
 ## ⏱ Pipeline Scheduling using ADF Triggers
