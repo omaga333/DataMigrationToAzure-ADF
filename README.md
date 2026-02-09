@@ -128,7 +128,7 @@ Parameters were used to:
 
 Result:
 Reusable and scalable pipelines.
-
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/4c56cf26216fde64b2169c2576cd013f8ddd8ffa/pipeline/Dynamic%20Mapping.png)
 ---
 
 ## 🔁 Alter Row Transformation Usage
@@ -138,7 +138,6 @@ Alter Row transformation controls database operations.
 Example configuration:
 
 Upsert if: 1 > 0
-
 
 Meaning:
 All rows are treated as Upsert operations.
@@ -178,6 +177,9 @@ Example:
 | 100  | 1 |
 | 90   | 2 |
 
+
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/4c56cf26216fde64b2169c2576cd013f8ddd8ffa/pipeline/rank.png)
+
 ---
 
 ### Usage Difference
@@ -195,48 +197,6 @@ Converted input to array.
 
 ---
 
-### Issue: Window Function Error
-Error:Window functions require order by clause
-Fix:
-Added Order By column inside Window transformation.
-
----
-
-### Issue: Spark Job Failure
-Cause:
-Schema or configuration mismatch.
-
-Fix:
-Validated schema and dataset configuration.
-
----
-
-### Issue: Literal Expression Error
-Error:Column operands are not allowed in literal expressions
-
-Cause:
-String values not enclosed in single quotes.
-
-Fix:
-Use:status = 'active'
-
----
-
-### Issue: Git Repository Initialization
-ADF could not create branch because repository was empty.
-
-Fix:
-Initialize repository with README or initial commit.
-
----
-
-### Issue: Import Existing Resources
-Existing ADF pipelines were not in Git.
-
-Fix:
-Use:Import existing resources to repository
-
----
 
 ## 📈 Skills Demonstrated
 
@@ -251,39 +211,6 @@ This project demonstrates:
 - Azure service integration
 - Git-based version control
 
----
-
-## 🚀 Future Improvements
-
-Possible enhancements:
-
-- Databricks integration
-- Delta Lake adoption
-- Streaming pipelines
-- Monitoring & alerting
-- CI/CD automation
-- Migration to Microsoft Fabric
-
----
-
-## 📊 Real-World Use Cases
-
-Used in:
-
-- Enterprise data warehouses
-- Analytics ingestion pipelines
-- Business intelligence systems
-- ML preprocessing pipelines
-
----
-
-## 👨‍💻 Author
-
-Haitham Hamed  
-AI & Data Engineering Student
-
----
----
 
 ## ⏱ Pipeline Scheduling using ADF Triggers
 
@@ -300,30 +227,13 @@ Types used include:
 
 ---
 
-### Execution Flow
-
-pic
-
----
-
----
-
-### Benefits
-
-- Fully automated data ingestion
-- No manual execution required
-- Consistent data refresh cycles
-
----
 
 ## 🔔 Monitoring & Alerting using Azure Logic Apps
 
 To ensure pipeline reliability, automated alerting was implemented using Azure Logic Apps.
 
 ---
-
-### Monitoring Flow
-pic
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/262a5cfad05c86f1ffceea4fac46949106402eda/pipeline/Alert.png)
 
 ## 🔔 Monitoring & Alerting using Azure Logic Apps
 
@@ -331,17 +241,12 @@ Pipeline failure or execution events flow **horizontally**:
 
 **Pipeline Failure or Execution Event → Azure Monitor Event Trigger → Logic App Execution → Email / Notification Alert**
 
----
-
----
 
 ### Implementation Details
 
 - Pipeline execution events are monitored.
 - Azure Monitor triggers Logic App workflows.
 - Notifications are sent automatically upon failures.
-
----
 
 ### Benefits
 
@@ -362,21 +267,10 @@ If a Spark Data Flow job fails:
 4. Pipeline issue can be investigated quickly.
 
 ---
-
-### Learning Outcome
-
-The project demonstrates integration between:
-
-- Azure Data Factory
-- Azure Monitor
-- Azure Logic Apps
-
-to build resilient production-grade data pipelines.
-
----
----
-
 ## 🔗 GitHub / Azure DevOps Integration
+
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/262a5cfad05c86f1ffceea4fac46949106402eda/pipeline/AzureDevops.png)
+
 
 To ensure proper version control and collaboration, the ADF project was integrated with **GitHub**.
 
