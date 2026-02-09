@@ -182,17 +182,11 @@ Example:
 - Use **RANK** when gaps are acceptable.
 - Use **DENSE_RANK** when ranking must remain continuous.
 
----
-
-## ⚠️ Issues Encountered & Fixes
-
-### Issue: ForEach received String instead of Array
-Error:foreach expression is of type 'String'
-Fix:
-Converted input to array.
 
 ---
 
+## DataFlow
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/2c258708219d5daaaead888880993ce6a912778a/pipeline/dataflow.png)
 
 ## 📈 Skills Demonstrated
 
