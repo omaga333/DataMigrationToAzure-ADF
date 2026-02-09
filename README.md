@@ -178,7 +178,7 @@ Example:
 | 90   | 2 |
 
 
-![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/4c56cf26216fde64b2169c2576cd013f8ddd8ffa/pipeline/rank.png)
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/50803c8c138909d438a906b048c2fad2b41aaeb5/pipeline/rank.png)
 
 ---
 
@@ -269,7 +269,7 @@ If a Spark Data Flow job fails:
 ---
 ## 🔗 GitHub / Azure DevOps Integration
 
-![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/262a5cfad05c86f1ffceea4fac46949106402eda/pipeline/AzureDevops.png)
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/3b9368c9843e80aa3b15513c3e2d9582bbbc38da/pipeline/AzureDevops.png)
 
 
 To ensure proper version control and collaboration, the ADF project was integrated with **GitHub**.
