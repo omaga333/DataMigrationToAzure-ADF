@@ -63,6 +63,13 @@ Sources include:
 - Local systems
 - On-prem sources
 
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/057cf51a72dee32d272ee0e97c2a183932ad668b/pipeline/Apiingest.png)
+
+
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/057cf51a72dee32d272ee0e97c2a183932ad668b/pipeline/Incremental%20Load.png)
+
+![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/057cf51a72dee32d272ee0e97c2a183932ad668b/pipeline/onpremingest.png)
+
 ---
 
 ### Step 2: ForEach Activity
@@ -91,6 +98,8 @@ Transformation operations include:
 - Type conversion
 - Column selection
 - Data formatting
+
+  ![imaga_alt](https://github.com/omaga333/DataMigrationToAzure-ADF/blob/057cf51a72dee32d272ee0e97c2a183932ad668b/pipeline/silver.png)
 
 Executed using Spark clusters managed by ADF.
 
